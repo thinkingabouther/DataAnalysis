@@ -3,7 +3,7 @@ AppleStore <- read_excel("Practice4/Task1/AppleStore.xlsx")
 View(AppleStore)
 
 # -- ПУНКТ 2 --
-AppleStoreDF <- select(AppleStore, -c(AppleStore$id, AppleStore$currency))
+AppleStoreDF <- select(AppleStore, -c(id, currency))
 View(AppleStoreDF)
 
 # -- ПУНКТ 3 --
